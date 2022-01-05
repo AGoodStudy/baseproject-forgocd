@@ -1,0 +1,6 @@
+version: '3'
+services:
+  gocd-springboot-demo:
+    image: 2359721314/gocd-demo:v1
+    ports:
+      - "8080:8080"
